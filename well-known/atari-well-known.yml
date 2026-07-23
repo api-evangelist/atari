@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://atari.com/.well-known/
+host: https://atari.com
+notes: >-
+  atari.com is served on Shopify; the openid-configuration and
+  oauth-authorization-server documents describe Shopify's customer-account
+  authentication for the Atari online store (issuer shopify.com, endpoints on
+  my.atari.com). scopes_supported advertises openid, email,
+  customer-account-api:full, and customer-account-mcp-api:full. No first-party
+  Atari API OAuth server, security.txt, api-catalog, or ai-plugin.json is
+  published.
+documents:
+- path: /.well-known/openid-configuration
+  status: 200
+  file: atari-openid-configuration.json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: atari-oauth-authorization-server.json
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
