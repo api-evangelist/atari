@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Atari is a company surfaced as a portfolio company of mayfield and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Atari is one of the founding brands of the interactive entertainment industry, originally established in 1972, and today operates as a global video game and consumer-hardware company. It publishes classic and modern titles, manufactures the Atari VCS console and retro hardware (Atari 2600+, Atari 400 Mini), licenses its catalog and brand, and sells games, collectibles, and merchandise through its official online store at atari.com. Atari does not publish a general-purpose public REST API; its developer surface is limited to Atari VCS content-submission guidance (developers email vcs@atari.com and use the VCS submission portal) and legacy HTML5 Atari Arcade SDK libraries on GitHub. This profile was surfaced as a Mayfield portfolio company — a nod to Mayfield's foundational 1970s venture investment in Atari — and added to the API Evangelist network for enrichment.
 
-Backed by: mayfield
+**Areas:** Company · Video Games · Gaming · Consumer Hardware · Entertainment · Consoles · Retro Gaming · Media
+
+## Atari on APIs.io
+
+Everything profiled for Atari is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/atari/](https://apis.io/providers/atari/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Atari Domain Security](https://apis.io/security/atari/atari-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://atari.com/)
+- [Documentation](https://support.atari.com/hc/en-us/articles/17386512074523-Developers)
+- [Support](https://support.atari.com/hc/en-us)
+- [Blog](https://atari.com/blogs/newsroom)
+- [Terms of service](https://atari.com/pages/terms-conditions)
+- [Privacy policy](https://atari.com/pages/privacy-cookies)
+- [GitHub](https://github.com/atari-vcs)
+
+## API Evangelist rating
+
+**Kin Score 13.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 21.1 |
+
+**Agent readiness 10.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/atari/](https://apis.io/providers/atari/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Atari: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/atari/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
